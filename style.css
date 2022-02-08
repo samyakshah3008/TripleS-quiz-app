@@ -1,0 +1,81 @@
+@import url("/styles/quiz-list.css");
+@import url("/styles/worldcupquiz/worldcupquiz.css");
+
+*{
+    --tw-bg-opacity: 1;
+    background-color: var(--background-color); 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color: rgba(17,24,39,1); 
+    --gray-text: rgba(156,163,175,1);
+    --content-color:rgba(249,250,251,1);
+    --danger-color: #F44336; 
+    --success-color: #4CAF50;
+    --warning-color: #FF9800;    
+}
+
+.margin-top{
+    margin-top: 1.25rem;
+}
+
+.margin-top-xl{
+    margin-top: 4.2rem;
+}
+
+.text-gray{
+    --tw-text-opacity: 1;
+    color: var(--gray-text);
+}
+
+.text-small{
+    --tw-text-opacity: 1;
+    color: var(--content-color);
+} 
+
+
+.nav-header{
+    color: var(--content-color);
+    font-size: 2rem; 
+}
+
+.center{
+    text-align: center;
+}
+
+.btn{
+    color: var(--content-color);
+    padding: 0.938rem 2rem;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+}
+
+.level-container{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.easy-level:hover{
+    background-color: var(--success-color);
+    color: var(--content-color);
+}
+
+.medium-level:hover{
+    background-color: var(--warning-color);
+    color: var(--content-color);
+}
+
+.hard-level:hover{
+    background-color: var(--danger-color);
+    color: var(--content-color);
+}
+
+.easy-level-active{
+    color: var(--success-color);
+    font-weight: bold;
+}
