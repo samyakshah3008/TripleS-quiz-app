@@ -1,0 +1,41 @@
+.go-back-btn{
+    color: var(--content-color);
+    border: none;
+    font-size: 1rem;
+    padding: 0.938rem 2rem; 
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.go-back-btn:hover{
+    color: var(--warning-color);
+}
+
+.rule-book-container{
+    margin: auto;
+    width: 40%;
+    height: 25rem;
+    border: 2px solid var(--content-color);  
+    color: var(--gray-text);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 1.5rem; 
+}
+
+
+
+.start-quiz-btn{
+    border: none;
+    color: var(--content-color);
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.start-quiz-btn:hover{
+    color: var(--success-color);
+}

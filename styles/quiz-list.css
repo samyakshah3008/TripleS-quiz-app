@@ -1,0 +1,46 @@
+.quiz-list-container{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    color: var(--content-color);
+}
+
+.card-img{
+    width: 100%;
+    height: 55%;
+    border-radius: 1.5rem;     
+}
+
+.card{
+    width: 20rem;
+    height: 25rem;
+    border: 2px solid var(--content-color);
+    border-radius: 1.5rem;
+}
+
+
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.playnow-btn{
+    color: var(--content-color);
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.playnow-btn:hover{
+    color: var(--success-color);
+    font-weight: bold;
+}
