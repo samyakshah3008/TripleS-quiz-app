@@ -1,0 +1,52 @@
+.correct{
+    background-color: var(--success-color);
+}
+
+.wrong{
+    background-color: var(--danger-color);
+}
+
+.home-btn{
+    color: var(--content-color);
+    border: none;
+    font-size: 1rem; 
+    cursor: pointer;
+}
+
+.twitter-btn{
+    color: var(--content-color);
+    border: none;
+    font-size: 1rem; 
+    cursor: pointer;
+}
+
+.github-btn{
+    color: var(--content-color);
+    border: none;
+    font-size: 1rem; 
+    cursor: pointer;
+}
+
+.linkedin-btn{
+    color: var(--content-color);
+    border: none;
+    font-size: 1rem; 
+    cursor: pointer;
+    
+}
+
+.twitter-btn:hover{
+    color: var(--success-color);
+}
+
+.github-btn:hover{
+    color: var(--success-color);
+}
+
+.linkedin-btn:hover{
+    color: var(--success-color);
+}
+
+.home-btn:hover{
+    color: var(--success-color);
+}
