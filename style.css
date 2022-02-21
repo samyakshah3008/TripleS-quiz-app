@@ -90,3 +90,11 @@
     color: var(--success-color);
     font-weight: bold;
 }
+
+.medium-level-active{
+    color: var(--warning-color);
+}
+
+.hard-level-active{
+    color: var(--danger-color);
+}
